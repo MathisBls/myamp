@@ -154,7 +154,7 @@
             <button type="submit">Créer le Projet</button>
         </form>
     </div>
-    <a class="phpmyadmin-link" href="http://localhost/phpmyadmin/index.php">Accéder à phpMyAdmin</a>
+    <a class="phpmyadmin-link" href="http://localhost/phpmyadmin/index.php" target="_blank">Accéder à phpMyAdmin</a>
 
     <?php
     // Fonction pour trouver le fichier index.php dans le dossier du projet
