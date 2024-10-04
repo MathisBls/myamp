@@ -1,9 +1,0 @@
-//afficher apache open server
-tasklist | findstr httpd.exe
-//kill it
-taskkill /PID 1234 /F
-
-//afficher sql server
-tasklist | findstr mysqld.exe
-//kill it
-taskkill /PID 1234 /F

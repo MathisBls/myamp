@@ -1,3 +1,35 @@
+<?php
+// Place cette partie en haut de ton fichier, avant tout HTML
+
+$rootDir = __DIR__;
+
+// Vérifie si un projet est sélectionné et trouve le index.php
+if (isset($_GET['project'])) {
+    $projectDir = $rootDir . '/' . basename($_GET['project']);
+    $indexFile = findIndexInFolder($projectDir);
+
+    // Si on trouve l'index.php, on le prépare pour la redirection
+    if ($indexFile) {
+        $redirectUrl = str_replace($rootDir, '', $indexFile);
+    } else {
+        // Si aucune sortie n'est faite, ne pas générer de message ici
+    }
+}
+
+// Redirection
+if (isset($redirectUrl)) {
+    header('Location: ' . $redirectUrl);
+    exit;
+}
+
+// Ensuite, continue avec le reste de ton code
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Le reste de ton HTML ici -->
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,22 +42,24 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
         }
 
         header {
-            background-color: #2c3e50;
-            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 20px;
-            text-align: center;
+            background-color: var(--header-bg);
+            color: white;
         }
 
         h1 {
             margin: 0;
+            text-align: center;
         }
 
         footer {
-            background-color: #2c3e50;
+            background-color: var(--header-bg);
             color: white;
             text-align: center;
             padding: 10px;
@@ -55,18 +89,18 @@
         }
 
         th {
-            background-color: #34495e;
+            background-color: var(--th-bg);
             color: white;
         }
 
         tr:hover {
-            background-color: #f1f1f1;
+            background-color: var(--tr-hover-bg);
             transition: background-color 0.3s;
         }
 
         a {
             text-decoration: none;
-            color: #2c3e50;
+            color: var(--link-color);
             font-weight: 600;
         }
 
@@ -77,6 +111,7 @@
         .folder-icon {
             margin-right: 10px;
             vertical-align: middle;
+            filter: var(--folder-icon-color);
         }
 
         .no-project {
@@ -99,7 +134,7 @@
 
         .project-form button {
             padding: 10px 20px;
-            background-color: #3498db;
+            background-color: var(--button-bg);
             color: white;
             border: none;
             border-radius: 4px;
@@ -107,7 +142,7 @@
         }
 
         .project-form button:hover {
-            background-color: #2980b9;
+            background-color: var(--button-bg-hover);
         }
 
         .phpmyadmin-link {
@@ -129,32 +164,131 @@
 
         .delete-button {
             padding: 5px 10px;
-            background-color: #e74c3c;
-            color: white;
-            border: none;
-            border-radius: 4px;
+            color: #34495e;
+            border: 2px solid #34495e;
             cursor: pointer;
+            font-weight: 600;
+            background-color: white;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .delete-button:hover {
-            background-color: #c0392b;
+            background-color: #34495e;
+            color: white;
+            transition: background-color 0.3s, color 0.3s;
         }
+
+        body.dark .delete-button {
+            color: white;
+            border-color: rgb(255, 30, 70);
+            background-color: rgb(32, 30, 45);
+        }
+
+        body.dark .delete-button:hover {
+            background-color: rgb(255, 30, 70);
+        }
+
+        .theme-switch {
+            cursor: pointer;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s, color 0.3s;
+            position: absolute;
+            right: 20px;
+        }
+
+        .theme-switch:hover {
+            background-color: white;
+            color: var(--header-bg);
+        }
+
+        body.dark .phpmyadmin-link {
+            background-color: rgb(255, 30, 70);
+        }
+
+        body.dark .phpmyadmin-link:hover {
+            background-color: rgb(200, 25, 60);
+        }
+
+        /* Default (light theme) variables */
+        :root {
+            --header-bg: #2c3e50;
+            --th-bg: #34495e;
+            --tr-hover-bg: #f1f1f1;
+            --folder-icon-color: none;
+            --link-color: #2c3e50;
+            --button-bg: #3498db;
+            --button-bg-hover: #2980b9;
+        }
+
+        /* Dark theme variables */
+        body.dark {
+            background-color: rgb(32, 30, 45);
+            color: white;
+        }
+
+        body.dark .container {
+            background-color: rgb(32, 30, 45);
+            color: white;
+        }
+
+        body.dark a {
+            color: white;
+        }
+
+        body.dark th {
+            background-color: rgb(255, 30, 70);
+        }
+
+        body.dark tr:hover {
+            background-color: rgb(40, 37, 54);
+        }
+
+        body.dark .folder-icon {
+            filter: invert(44%) sepia(77%) saturate(7474%) hue-rotate(329deg) brightness(99%) contrast(109%);
+        }
+
+        body.dark .theme-switch {
+            border-color: rgb(255, 30, 70);
+        }
+
+        body.dark .theme-switch:hover {
+            color: rgb(255, 30, 70);
+            background-color: rgb(40, 37, 54);
+        }
+
+        body.dark .project-form button {
+            background-color: rgb(255, 30, 70);
+        }
+
+        body.dark .project-form button:hover {
+            background-color: rgb(200, 25, 60);
+        }
+
+        body.dark footer, body.dark header {
+            background-color: rgb(11, 7, 17);
+        }
+
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Liste des Projets</h1>
+    <h1>Your projects</h1>
+    <button class="theme-switch" onclick="switchTheme()">Switch Theme</button>
 </header>
 
 <div class="container">
     <div class="project-form">
         <form method="POST" action="">
-            <input type="text" name="project_name" placeholder="Nom du nouveau projet" required>
-            <button type="submit">Créer le Projet</button>
+            <input type="text" name="project_name" placeholder="Myproject..." required>
+            <button type="submit">Create project</button>
         </form>
     </div>
-    <a class="phpmyadmin-link" href="http://localhost/phpmyadmin/index.php" target="_blank">Accéder à phpMyAdmin</a>
+    <a class="phpmyadmin-link" href="http://localhost/phpmyadmin/index.php" target="_blank">Access phpMyAdmin</a>
 
     <?php
     // Fonction pour trouver le fichier index.php dans le dossier du projet
@@ -180,21 +314,6 @@
         rmdir($dir);
     }
 
-    $rootDir = __DIR__;
-
-    // Vérifie si un projet est sélectionné et redirige vers le index.php
-    if (isset($_GET['project'])) {
-        $projectDir = $rootDir . '/' . basename($_GET['project']);
-        $indexFile = findIndexInFolder($projectDir);
-
-        if ($indexFile) {
-            header('Location: ' . str_replace($rootDir, '', $indexFile));
-            exit;
-        } else {
-            echo "<div class='no-project'><h2>Aucun fichier 'index.php' trouvé dans le projet sélectionné.</h2></div>";
-        }
-    }
-
     // Gestion de la création d'un nouveau projet
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['project_name'])) {
         $projectName = basename($_POST['project_name']);
@@ -203,11 +322,10 @@
         if (!file_exists($projectDir)) {
             mkdir($projectDir);  // Créer le dossier du projet
             $indexFile = $projectDir . '/index.php';
-            // Créer un fichier index.php avec un code par défaut
-            file_put_contents($indexFile, "<?php\n\necho 'Bienvenue sur le projet $projectName!';\n?>");
-            echo "<div class='no-project'><h2>Projet '$projectName' créé avec succès.</h2></div>";
+            file_put_contents($indexFile, "<?php\n\necho 'Welcome to $projectName!';\n?>");
+            echo "<div class='no-project'><h2>Project '$projectName' created successfully.</h2></div>";
         } else {
-            echo "<div class='no-project'><h2>Le projet '$projectName' existe déjà.</h2></div>";
+            echo "<div class='no-project'><h2>The project '$projectName' already exists.</h2></div>";
         }
     }
 
@@ -217,20 +335,19 @@
         $projectDirToDelete = $rootDir . '/' . $projectToDelete;
         if (is_dir($projectDirToDelete)) {
             deleteDirectory($projectDirToDelete);
-            echo "<div class='no-project'><h2>Le projet '$projectToDelete' a été supprimé avec succès.</h2></div>";
+            echo "<div class='no-project'><h2>The project '$projectToDelete' has been deleted successfully.</h2></div>";
         } else {
-            echo "<div class='no-project'><h2>Le projet '$projectToDelete' n'existe pas.</h2></div>";
+            echo "<div class='no-project'><h2>The project '$projectToDelete' does not exist.</h2></div>";
         }
     }
 
-    // Lister les projets existants
+    // Affichage des projets
     $projects = array_filter(glob('*'), 'is_dir');
     if (!empty($projects)) {
         echo "<table>";
-        echo "<thead><tr><th>Projet</th><th>Action</th></tr></thead>";
+        echo "<thead><tr><th>Project</th><th>Action</th></tr></thead>";
         echo "<tbody>";
         foreach ($projects as $project) {
-            // Vérification pour exclure le dossier phpmyadmin (insensible à la casse)
             if (strcasecmp($project, 'phpmyadmin') !== 0) {
                 echo "<tr>
                         <td>
@@ -239,8 +356,8 @@
                             </a>
                         </td>
                         <td>
-                            <a href=\"?delete=" . urlencode($project) . "\" onclick=\"return confirm('Êtes-vous sûr de vouloir supprimer ce projet ?');\">
-                                <button class='delete-button'>Supprimer</button>
+                            <a href=\"?delete=" . urlencode($project) . "\" onclick=\"return confirm('Are you sure you want to delete this project?')\">
+                                <button class='delete-button'>Delete</button>
                             </a>
                         </td>
                       </tr>";
@@ -248,15 +365,21 @@
         }
         echo "</tbody></table>";
     } else {
-        echo "<div class='no-project'><h2>Aucun projet trouvé.</h2></div>";
+        echo "<div class='no-project'><h2>No projects found.</h2></div>";
     }
     ?>
 
 </div>
 
 <footer>
-    <p>&copy; 2024 Projets. Tous droits réservés.</p>
+    <p>&copy; 2024 Projets. All rights reserved.</p>
 </footer>
+
+<script>
+    function switchTheme() {
+        document.body.classList.toggle('dark');
+    }
+</script>
 
 </body>
 </html>
