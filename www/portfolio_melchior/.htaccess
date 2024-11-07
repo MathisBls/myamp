@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Si le fichier ou le répertoire n'existe pas
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirige vers index.php pour traiter toutes les requêtes
+RewriteRule ^ index.php [QSA,L]
+
+# Gérer les erreurs 404
+ErrorDocument 404 /portfolio_melchior/public/404.php

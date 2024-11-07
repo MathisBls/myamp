@@ -1,69 +1,453 @@
-@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+@import "global.css";
 
 :root {
     --color-primary: #FFC89A;
     --color-secondary: #E8D4FF;
-    --color-background: #1F0D30;
+    --color-secondary-hover: #D3B8FF;
+    --color-music: #ad7dfc;
+    --color-dark-purple: #1F0D30;
+    --color-gray: #EAEAEA;
 }
 
-* {
+body,
+html {
+    height: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    color: white;
-    background-color: var(--color-background);
+.titre-header{
+    font-size: 32px !important;
+    text-decoration: none !important;
 }
 
-header {
+/* CUSTOM */
+.background-header {
+    background-image: url('/portfolio_melchior/public/img/vinyle.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.background-header::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
-.navbar {
+.text-center h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.textHeader{
+    z-index: 2;
+}
+
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    z-index: 2;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color: var(--color-dark-purple);
+    color: white;
+    text-align: center;
     padding: 20px;
 }
 
-.Melchior-title
-{
-    font-size: 36px;
+/* Artwork */
+.artwork-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 15px 20px 15px;
+    transition: transform 0.3s;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.artwork-card:hover {
+    transform: translateY(-5px);
+}
+
+iframe {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+
+.artwork-img-top {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 15px;
+}
+
+
+.artwork-title {
+    color: #000000;
+    margin: 15px 0 20px 15px;
     font-family: 'Della Respira', serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.artwork-description {
+    color: #333;
+    margin: 0 0 15px 15px;
+    flex-grow: 1 !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.artwork-btn-container {
+    text-align: right;
+    margin-top: auto;
+    align-items: end;
+}
+
+.artwork-btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-dark-purple);
     font-weight: bold;
+    margin: 25px 20px 20px 0;
+}
+
+.artwork-btn span {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.artwork-btn:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Contact */
+.contact-section {
+    padding: 50px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-title {
+    font-size: 2rem;
+    color: #1F0D30;
+    font-family: 'Della Respira', serif;
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: none;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    border-radius: inherit;
+}
+
+.contact-submit-btn {
+    background-color: #E8D4FF;
+    color: #1F0D30;
+    border: none;
+    padding: 10px 60px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 35px auto 0 auto;
+}
+
+.contact-submit-btn:hover {
+    background-color: #D3B8FF;
+}
+
+.contact-social-title {
+    font-size: 1.5rem;
+    font-family: 'Della Respira', serif;
+    margin-bottom: 20px;
     text-align: center;
-    color: #fff;
-}
-.Melchior-title:hover
-{
-    color: #FFC89A;
 }
 
-.nav-link {
-    color: white !important;
-}
-
-.nav-link:hover {
-    color: #FFC89A !important;
-}
-
-.hero {
-    height: 100vh;
-    background-image: url('/public/assets/vinyl.png');
-    background-size: cover;
-    background-position: center;
+.contact-social-list {
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
+}
+
+.contact-social-list li {
+    margin-bottom: 10px;
+}
+
+.contact-social-link {
+    color: #1F0D30;
+    font-size: 1rem;
+    text-decoration: none;
+    display: flex;
     align-items: center;
 }
 
-.hero-content h1 {
-    font-size: 48px;
-    font-family: 'Della Respira', serif;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    text-align: center;
+.contact-social-link i {
+    margin: 0 10px;
+    font-size: 1.8rem;
+    color: #1F0D30;
+}
+
+.container-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    resize: none;
+    height: 45px;
+}
+
+.contact-form .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Artwork */
+
+#artwork {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+.artwork-main-image {
+    width: 100%;
+    height: 650px;  /* mettre auto si besoin */
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.artwork-description {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+#artwork .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#artwork .col-md-6 {
+    padding: 15px;
+}
+
+/* filter */
+.filter-dropdown-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.filter-btn {
+    background-color: var(--color-secondary);
+    color: var(--color-dark-purple);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: var(--color-secondary-hover);
+}
+
+.dropdown-arrow {
+    font-size: 14px;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    min-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.3s ease;
+}
+
+.dropdown-menu li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+}
+
+.filter-dropdown-container.active .dropdown-menu {
+    display: block;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.filter-dropdown-container.active .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-dark-purple);
+    color: var(--color-gray);
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.play-pause {
+    background: none;
+    border: none;
+    color: var(--color-secondary);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.progress-container {
+    flex: 1;
+    margin: 0 10px;
+    background: var(--color-secondary);
+    border-radius: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.progress {
+    background: var(--color-music);
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+}
+
+.current-time, .duration {
+    font-size: 12px;
+    margin-left: 10px;
+    color: var(--color-gray);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+    iframe {
+        max-width: 100%;
+        height: 200px;
+    }
+    .artwork-card {
+        margin: 0 0 20px 0;
+    }
+    .artwork-main-image {
+        height: 400px;
+    }
+    .filter-dropdown-container {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .contact-form{
+        margin-bottom: 50px;
+    }
+
+    .artwork-description{
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    iframe {
+        max-width: 720px;
+        height: 405px;
+    }
+    .artwork-card {
+        margin: 0 0 20px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    iframe {
+        max-width: 960px;
+        height: 540px;
+    }
+    .artwork-card {
+        margin: 0 0 20px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    iframe {
+        max-width: 1280px;
+        height: 720px;
+    }
+    .artwork-card {
+        margin: 0 15px 20px 15px;
+    }
 }

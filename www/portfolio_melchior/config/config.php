@@ -1,6 +1,7 @@
 <?php
 
-function loadEnv($file) {
+function loadEnv($file)
+{
     if (!file_exists($file)) {
         return;
     }
@@ -27,4 +28,3 @@ try {
 } catch (PDOException $e) {
     die("Erreur de connexion à la base de données : " . $e->getMessage());
 }
-?>

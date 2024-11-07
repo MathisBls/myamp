@@ -1,32 +1,25 @@
 <?php
-// Place cette partie en haut de ton fichier, avant tout HTML
 
 $rootDir = __DIR__;
 
-// Vérifie si un projet est sélectionné et trouve le index.php
 if (isset($_GET['project'])) {
     $projectDir = $rootDir . '/' . basename($_GET['project']);
     $indexFile = findIndexInFolder($projectDir);
 
-    // Si on trouve l'index.php, on le prépare pour la redirection
     if ($indexFile) {
         $redirectUrl = str_replace($rootDir, '', $indexFile);
     } else {
-        // Si aucune sortie n'est faite, ne pas générer de message ici
     }
 }
 
-// Redirection
 if (isset($redirectUrl)) {
     header('Location: ' . $redirectUrl);
     exit;
 }
 
-// Ensuite, continue avec le reste de ton code
 ?>
 <!DOCTYPE html>
 <html lang="fr">
-<!-- Le reste de ton HTML ici -->
 
 
 
@@ -35,7 +28,8 @@ if (isset($redirectUrl)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vos Projets</title>
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <title>MyAMP</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         body {
@@ -291,7 +285,6 @@ if (isset($redirectUrl)) {
     <a class="phpmyadmin-link" href="http://localhost/phpmyadmin/index.php" target="_blank">Access phpMyAdmin</a>
 
     <?php
-    // Fonction pour trouver le fichier index.php dans le dossier du projet
     function findIndexInFolder($dir) {
         $rii = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir));
         foreach ($rii as $file) {
@@ -302,7 +295,6 @@ if (isset($redirectUrl)) {
         return null;
     }
 
-    // Fonction pour supprimer un dossier et son contenu
     function deleteDirectory($dir) {
         if (!is_dir($dir)) {
             return;
@@ -314,22 +306,37 @@ if (isset($redirectUrl)) {
         rmdir($dir);
     }
 
-    // Gestion de la création d'un nouveau projet
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['project_name'])) {
         $projectName = basename($_POST['project_name']);
         $projectDir = $rootDir . '/' . $projectName;
 
         if (!file_exists($projectDir)) {
-            mkdir($projectDir);  // Créer le dossier du projet
+            mkdir($projectDir);
             $indexFile = $projectDir . '/index.php';
-            file_put_contents($indexFile, "<?php\n\necho 'Welcome to $projectName!';\n?>");
+            $metaTags = <<<EOT
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to $projectName!">
+    <meta name="keywords" content="$projectName, project, example">
+    <meta name="author" content="Your Name">
+    <title>$projectName</title>
+</head>
+<body>
+    <h1>Welcome to $projectName!</h1>
+</body>
+</html>
+EOT;
+
+            file_put_contents($indexFile, $metaTags);
             echo "<div class='no-project'><h2>Project '$projectName' created successfully.</h2></div>";
         } else {
             echo "<div class='no-project'><h2>The project '$projectName' already exists.</h2></div>";
         }
     }
 
-    // Gestion de la suppression d'un projet
     if (isset($_GET['delete'])) {
         $projectToDelete = basename($_GET['delete']);
         $projectDirToDelete = $rootDir . '/' . $projectToDelete;
@@ -341,14 +348,13 @@ if (isset($redirectUrl)) {
         }
     }
 
-    // Affichage des projets
     $projects = array_filter(glob('*'), 'is_dir');
     if (!empty($projects)) {
         echo "<table>";
         echo "<thead><tr><th>Project</th><th>Action</th></tr></thead>";
         echo "<tbody>";
         foreach ($projects as $project) {
-            if (strcasecmp($project, 'phpmyadmin') !== 0) {
+            if (strcasecmp($project, 'phpmyadmin') !== 0 && strcasecmp($project, 'favicon_io') !== 0) {
                 echo "<tr>
                         <td>
                             <a href=\"?project=" . urlencode($project) . "\">
@@ -376,8 +382,21 @@ if (isset($redirectUrl)) {
 </footer>
 
 <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark');
+        }
+    });
+
     function switchTheme() {
         document.body.classList.toggle('dark');
+
+        if (document.body.classList.contains('dark')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
     }
 </script>
 

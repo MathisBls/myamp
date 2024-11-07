@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-foreach (glob('../controllers/*.php') as $controllerFile) {
+foreach (glob('../src/controllers/*.php') as $controllerFile) {
     require_once $controllerFile;
 }
 
@@ -16,17 +16,25 @@ switch ($route) {
         $controller = new OeuvreController();
         break;
 
+    case 'filtered_artworks':
+        $controller = new FilteredArtworksController();
+        break;
+
+    case 'sendMail':
+        include '../templates/send_mail.php';
+        exit;
+        break;
+
     default:
         http_response_code(404);
-        echo "404 Not Found";
+        include '404.php';
         exit;
 }
-
-include '../views/partials/header.php';
 
 if (isset($controller)) {
     $controller->index();
 }
 
-include '../views/partials/footer.php';
+include '../templates/components/footer.php';
+
 ?>

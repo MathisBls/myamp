@@ -7,3 +7,23 @@ taskkill /PID 1234 /F
 tasklist | findstr mysqld.exe
 //kill it
 taskkill /PID 1234 /F
+
+//lancer mysql
+mysqld --console
+
+//acceder a mysql
+mysql -u root -p
+
+//changer le mot de passe
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';
+
+//quitter mysql
+exit
+
+//apache
+httpd -k start
+httpd -k stop
+httpd -k restart
+
+//php
+php -S localhost:8000 //lancer un serveur php

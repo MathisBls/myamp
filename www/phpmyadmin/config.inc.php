@@ -13,7 +13,7 @@ declare(strict_types=1);
  * This is needed for cookie based authentication to encrypt the cookie.
  * Needs to be a 32-bytes long string of random bytes. See FAQ 2.10.
  */
-$cfg['blowfish_secret'] = sodium_hex2bin('ta_chaine');
+$cfg['blowfish_secret'] = sodium_hex2bin('f16ce59f45714194371b48fe362072dc3b019da7861558cd4ad29e4d6fb13851');
 
 /**
  * Servers configuration

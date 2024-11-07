@@ -1,0 +1,80 @@
+.font-family-della-respira {
+    font-family: "Della Respira", serif;
+}
+
+.font-family-montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.titre-glob{
+    font-size: 60px;
+}
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.font-weight-regular {
+    font-weight: 400;
+}
+
+.font-weight-medium {
+    font-weight: 500;
+}
+
+.font-weight-semi-bold {
+    font-weight: 600;
+}
+
+.navbar-toggler
+{
+    z-index: 2;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-toggler:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.bg-gray {
+    background-color: var(--color-gray);
+}
+
+.color-dark-blue {
+    color: var(--color-dark-purple);
+}
+
+.fs-15px {
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1310px) {
+    .container {
+        max-width: 1280px;
+    }
+}

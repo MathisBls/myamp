@@ -1,0 +1,788 @@
+Logs:Starting the 'Apache2.4' service
+[Wed Oct 02 17:26:33.653805 2024] [mpm_winnt:crit] [pid 33984:tid 376] (OS 2)Le fichier sp�cifi� est introuvable.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Wed Oct 02 17:29:49.459828 2024] [mpm_winnt:crit] [pid 14308:tid 372] (OS 2)Le fichier sp�cifi� est introuvable.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Wed Oct 02 17:33:45.398949 2024] [mpm_winnt:crit] [pid 2680:tid 372] (OS 2)Le fichier sp�cifi� est introuvable.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Wed Oct 02 17:33:51.643086 2024] [mpm_winnt:crit] [pid 36288:tid 372] (OS 2)Le fichier sp�cifi� est introuvable.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Wed Oct 02 17:36:28.620639 2024] [mpm_winnt:crit] [pid 31004:tid 372] (OS 2)Le fichier sp�cifi� est introuvable.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:37:14.567052 2024] [mpm_winnt:notice] [pid 32856:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 17:37:14.567052 2024] [mpm_winnt:notice] [pid 32856:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 17:37:14.567052 2024] [core:notice] [pid 32856:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 17:37:14.571052 2024] [mpm_winnt:notice] [pid 32856:tid 352] AH00418: Parent: Created child process 33820
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:37:15.009523 2024] [mpm_winnt:notice] [pid 33820:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 17:37:28.685310 2024] [mpm_winnt:notice] [pid 32856:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 17:37:30.706759 2024] [mpm_winnt:notice] [pid 33820:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 17:37:30.726269 2024] [mpm_winnt:notice] [pid 32856:tid 352] AH00430: Parent: Child process 33820 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:37:51.151102 2024] [mpm_winnt:notice] [pid 35668:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 17:37:51.151102 2024] [mpm_winnt:notice] [pid 35668:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 17:37:51.151102 2024] [core:notice] [pid 35668:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 17:37:51.155138 2024] [mpm_winnt:notice] [pid 35668:tid 352] AH00418: Parent: Created child process 28564
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:37:51.623317 2024] [mpm_winnt:notice] [pid 28564:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 17:51:16.272508 2024] [mpm_winnt:notice] [pid 35668:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 17:51:19.261244 2024] [mpm_winnt:notice] [pid 28564:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 17:51:19.284060 2024] [mpm_winnt:notice] [pid 35668:tid 352] AH00430: Parent: Child process 28564 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:51:35.361410 2024] [mpm_winnt:notice] [pid 32012:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 17:51:35.361410 2024] [mpm_winnt:notice] [pid 32012:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 17:51:35.361410 2024] [core:notice] [pid 32012:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 17:51:35.364372 2024] [mpm_winnt:notice] [pid 32012:tid 352] AH00418: Parent: Created child process 12640
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:51:35.827837 2024] [mpm_winnt:notice] [pid 12640:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 17:51:38.280424 2024] [mpm_winnt:notice] [pid 32012:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 17:51:45.081623 2024] [mpm_winnt:notice] [pid 12640:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 17:51:45.104232 2024] [mpm_winnt:notice] [pid 32012:tid 352] AH00430: Parent: Child process 12640 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:52:00.493744 2024] [mpm_winnt:notice] [pid 35100:tid 388] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 17:52:00.493744 2024] [mpm_winnt:notice] [pid 35100:tid 388] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 17:52:00.493744 2024] [core:notice] [pid 35100:tid 388] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 17:52:00.498260 2024] [mpm_winnt:notice] [pid 35100:tid 388] AH00418: Parent: Created child process 11908
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 17:52:00.920780 2024] [mpm_winnt:notice] [pid 11908:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 17:54:45.242400 2024] [php:warn] [pid 11908:tid 1204] [client ::1:43816] PHP Warning:  scandir(projets): Le fichier sp\xc3\xa9cifi\xc3\xa9 est introuvab (code: 2) in C:\\tools\\www\\index.php on line 14, referer: http://localhost/
+[Wed Oct 02 17:54:45.242400 2024] [php:warn] [pid 11908:tid 1204] [client ::1:43816] PHP Warning:  scandir(projets): Failed to open directory: No such file or directory in C:\\tools\\www\\index.php on line 14, referer: http://localhost/
+[Wed Oct 02 17:54:45.242400 2024] [php:warn] [pid 11908:tid 1204] [client ::1:43816] PHP Warning:  scandir(): (errno 2): No such file or directory in C:\\tools\\www\\index.php on line 14, referer: http://localhost/
+[Wed Oct 02 17:54:45.242400 2024] [php:warn] [pid 11908:tid 1204] [client ::1:43816] PHP Warning:  foreach() argument must be of type array|object, false given in C:\\tools\\www\\index.php on line 29, referer: http://localhost/
+[Wed Oct 02 17:56:04.221507 2024] [php:error] [pid 11908:tid 1224] [client ::1:44187] PHP Fatal error:  Cannot redeclare findIndexInFolder() (previously declared in C:\\tools\\www\\index.php:3) in C:\\tools\\www\\index.php on line 11, referer: http://localhost/
+[Wed Oct 02 17:56:09.339706 2024] [php:error] [pid 11908:tid 1224] [client ::1:44187] PHP Fatal error:  Cannot redeclare findIndexInFolder() (previously declared in C:\\tools\\www\\index.php:3) in C:\\tools\\www\\index.php on line 11, referer: http://localhost/
+[Wed Oct 02 18:36:44.521083 2024] [mpm_winnt:notice] [pid 35100:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 18:36:46.547691 2024] [mpm_winnt:notice] [pid 11908:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 18:36:46.567657 2024] [mpm_winnt:notice] [pid 35100:tid 388] AH00430: Parent: Child process 11908 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:36:53.668643 2024] [mpm_winnt:notice] [pid 7840:tid 360] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 18:36:53.668643 2024] [mpm_winnt:notice] [pid 7840:tid 360] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 18:36:53.668643 2024] [core:notice] [pid 7840:tid 360] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 18:36:53.672643 2024] [mpm_winnt:notice] [pid 7840:tid 360] AH00418: Parent: Created child process 35048
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:36:54.115687 2024] [mpm_winnt:notice] [pid 35048:tid 384] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 18:38:24.814885 2024] [mpm_winnt:notice] [pid 7840:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 18:38:29.338214 2024] [mpm_winnt:notice] [pid 35048:tid 384] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 18:38:29.358394 2024] [mpm_winnt:notice] [pid 7840:tid 360] AH00430: Parent: Child process 35048 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:38:33.627816 2024] [mpm_winnt:notice] [pid 17552:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 18:38:33.627816 2024] [mpm_winnt:notice] [pid 17552:tid 384] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 18:38:33.627816 2024] [core:notice] [pid 17552:tid 384] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 18:38:33.631781 2024] [mpm_winnt:notice] [pid 17552:tid 384] AH00418: Parent: Created child process 34620
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:38:34.077745 2024] [mpm_winnt:notice] [pid 34620:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 18:39:30.105070 2024] [mpm_winnt:notice] [pid 17552:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 18:39:32.116528 2024] [mpm_winnt:notice] [pid 34620:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 18:39:32.138530 2024] [mpm_winnt:notice] [pid 17552:tid 384] AH00430: Parent: Child process 34620 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:39:35.374969 2024] [mpm_winnt:notice] [pid 14024:tid 376] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 18:39:35.374969 2024] [mpm_winnt:notice] [pid 14024:tid 376] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 18:39:35.374969 2024] [core:notice] [pid 14024:tid 376] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 18:39:35.378972 2024] [mpm_winnt:notice] [pid 14024:tid 376] AH00418: Parent: Created child process 8664
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:39:35.795749 2024] [mpm_winnt:notice] [pid 8664:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 18:44:30.001453 2024] [mpm_winnt:notice] [pid 14024:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 18:44:32.021119 2024] [mpm_winnt:notice] [pid 8664:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 18:44:32.042083 2024] [mpm_winnt:notice] [pid 14024:tid 376] AH00430: Parent: Child process 8664 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:44:41.360488 2024] [mpm_winnt:notice] [pid 36832:tid 376] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 18:44:41.360488 2024] [mpm_winnt:notice] [pid 36832:tid 376] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 18:44:41.360488 2024] [core:notice] [pid 36832:tid 376] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 18:44:41.364487 2024] [mpm_winnt:notice] [pid 36832:tid 376] AH00418: Parent: Created child process 4864
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:44:41.802784 2024] [mpm_winnt:notice] [pid 4864:tid 412] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 18:46:38.807909 2024] [mpm_winnt:notice] [pid 36832:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 18:46:40.832977 2024] [mpm_winnt:notice] [pid 4864:tid 412] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 18:46:40.853919 2024] [mpm_winnt:notice] [pid 36832:tid 376] AH00430: Parent: Child process 4864 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+d Oct 02 18:46:50.793445 2024] [mpm_winnt:crit] [pid 26464:tid 372] (OS 1056)Une instance du service s�ex�cute d�j�.  : AH00378: Failed to start the 'Apache2.4' service
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:46:51.079477 2024] [mpm_winnt:notice] [pid 23724:tid 356] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 18:46:51.079477 2024] [mpm_winnt:notice] [pid 23724:tid 356] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 18:46:51.079477 2024] [core:notice] [pid 23724:tid 356] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 18:46:51.083441 2024] [mpm_winnt:notice] [pid 23724:tid 356] AH00418: Parent: Created child process 12500
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:46:51.509256 2024] [mpm_winnt:notice] [pid 12500:tid 404] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 18:48:32.056635 2024] [mpm_winnt:notice] [pid 23724:tid 356] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 18:48:58.317097 2024] [mpm_winnt:notice] [pid 12500:tid 404] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 18:48:58.340183 2024] [mpm_winnt:notice] [pid 23724:tid 356] AH00430: Parent: Child process 12500 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:49:05.225942 2024] [mpm_winnt:notice] [pid 22460:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 18:49:05.225942 2024] [mpm_winnt:notice] [pid 22460:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 18:49:05.225942 2024] [core:notice] [pid 22460:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 18:49:05.230014 2024] [mpm_winnt:notice] [pid 22460:tid 352] AH00418: Parent: Created child process 25420
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:49:05.669752 2024] [mpm_winnt:notice] [pid 25420:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 18:56:03.269746 2024] [mpm_winnt:notice] [pid 22460:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 18:56:05.275387 2024] [mpm_winnt:notice] [pid 25420:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 18:56:05.295566 2024] [mpm_winnt:notice] [pid 22460:tid 352] AH00430: Parent: Child process 25420 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:56:10.334209 2024] [mpm_winnt:notice] [pid 35892:tid 392] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 18:56:10.334209 2024] [mpm_winnt:notice] [pid 35892:tid 392] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 18:56:10.334209 2024] [core:notice] [pid 35892:tid 392] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 18:56:10.338313 2024] [mpm_winnt:notice] [pid 35892:tid 392] AH00418: Parent: Created child process 13420
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 18:56:10.792231 2024] [mpm_winnt:notice] [pid 13420:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 20:45:21.313191 2024] [core:alert] [pid 13420:tid 1188] [client ::1:9104] C:/tools/www/portfolio_melchior/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/index.php
+[Wed Oct 02 20:45:49.922615 2024] [core:alert] [pid 13420:tid 1196] [client ::1:9105] C:/tools/www/portfolio_melchior/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/index.php
+[Wed Oct 02 20:46:18.985821 2024] [mpm_winnt:notice] [pid 35892:tid 392] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 20:46:48.994429 2024] [mpm_winnt:notice] [pid 35892:tid 392] AH00431: Parent: Forcing termination of child process 13420
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 20:46:54.456183 2024] [mpm_winnt:notice] [pid 36172:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 20:46:54.456183 2024] [mpm_winnt:notice] [pid 36172:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 20:46:54.456183 2024] [core:notice] [pid 36172:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 20:46:54.459693 2024] [mpm_winnt:notice] [pid 36172:tid 352] AH00418: Parent: Created child process 9800
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 20:46:54.892800 2024] [mpm_winnt:notice] [pid 9800:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 20:46:54.896803 2024] [core:alert] [pid 9800:tid 1192] [client ::1:9507] C:/tools/www/portfolio_melchior/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/index.php
+[Wed Oct 02 20:46:57.575701 2024] [core:alert] [pid 9800:tid 1220] [client ::1:9508] C:/tools/www/portfolio_melchior/.htaccess: Invalid command 'RewriteEngine', perhaps misspelled or defined by a module not included in the server configuration, referer: http://localhost/index.php
+[Wed Oct 02 20:55:07.684544 2024] [mpm_winnt:notice] [pid 36172:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 20:55:09.697315 2024] [mpm_winnt:notice] [pid 9800:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 20:55:09.718354 2024] [mpm_winnt:notice] [pid 36172:tid 352] AH00430: Parent: Child process 9800 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 20:55:17.261621 2024] [mpm_winnt:notice] [pid 14004:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 20:55:17.261621 2024] [mpm_winnt:notice] [pid 14004:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 20:55:17.261621 2024] [core:notice] [pid 14004:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 20:55:17.265607 2024] [mpm_winnt:notice] [pid 14004:tid 352] AH00418: Parent: Created child process 11996
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 20:55:17.673777 2024] [mpm_winnt:notice] [pid 11996:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 20:56:02.430978 2024] [mpm_winnt:notice] [pid 14004:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 20:56:32.106987 2024] [mpm_winnt:notice] [pid 11996:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 20:56:32.129594 2024] [mpm_winnt:notice] [pid 14004:tid 352] AH00430: Parent: Child process 11996 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 20:56:39.414206 2024] [mpm_winnt:notice] [pid 18600:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 20:56:39.414206 2024] [mpm_winnt:notice] [pid 18600:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 20:56:39.414206 2024] [core:notice] [pid 18600:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 20:56:39.417208 2024] [mpm_winnt:notice] [pid 18600:tid 352] AH00418: Parent: Created child process 36020
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 20:56:39.848232 2024] [mpm_winnt:notice] [pid 36020:tid 384] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 21:09:56.375812 2024] [mpm_winnt:notice] [pid 18600:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 21:10:00.269888 2024] [mpm_winnt:notice] [pid 36020:tid 384] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 21:10:00.310972 2024] [mpm_winnt:notice] [pid 18600:tid 352] AH00430: Parent: Child process 36020 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:10:06.587549 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 21:10:06.587549 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 21:10:06.587549 2024] [core:notice] [pid 32604:tid 372] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 21:10:06.590931 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00418: Parent: Created child process 6796
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:10:07.033872 2024] [mpm_winnt:notice] [pid 6796:tid 368] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 32604:tid 372] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:11:58.978862 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 21:11:58.978862 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 21:11:58.979862 2024] [core:notice] [pid 32604:tid 372] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 21:11:58.983374 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00418: Parent: Created child process 13348
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:11:59.958019 2024] [mpm_winnt:notice] [pid 13348:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 21:12:00.969084 2024] [mpm_winnt:notice] [pid 6796:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 21:12:06.922385 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 21:12:08.940916 2024] [mpm_winnt:notice] [pid 13348:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 21:12:08.962966 2024] [mpm_winnt:notice] [pid 32604:tid 372] AH00430: Parent: Child process 13348 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:12:16.850046 2024] [mpm_winnt:notice] [pid 6744:tid 408] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 21:12:16.850046 2024] [mpm_winnt:notice] [pid 6744:tid 408] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 21:12:16.850046 2024] [core:notice] [pid 6744:tid 408] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 21:12:16.854054 2024] [mpm_winnt:notice] [pid 6744:tid 408] AH00418: Parent: Created child process 33008
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:12:17.293784 2024] [mpm_winnt:notice] [pid 33008:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 21:16:33.192988 2024] [mpm_winnt:notice] [pid 6744:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 21:16:35.203971 2024] [mpm_winnt:notice] [pid 33008:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 21:16:35.230160 2024] [mpm_winnt:notice] [pid 6744:tid 408] AH00430: Parent: Child process 33008 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:16:43.775939 2024] [mpm_winnt:notice] [pid 33960:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 21:16:43.775939 2024] [mpm_winnt:notice] [pid 33960:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 21:16:43.775939 2024] [core:notice] [pid 33960:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 21:16:43.779980 2024] [mpm_winnt:notice] [pid 33960:tid 352] AH00418: Parent: Created child process 26200
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 21:16:44.239028 2024] [mpm_winnt:notice] [pid 26200:tid 384] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 22:42:13.417345 2024] [mpm_winnt:notice] [pid 33960:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 22:42:15.441336 2024] [mpm_winnt:notice] [pid 26200:tid 384] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 22:42:15.469392 2024] [mpm_winnt:notice] [pid 33960:tid 352] AH00430: Parent: Child process 26200 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 22:42:20.278518 2024] [mpm_winnt:notice] [pid 34212:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 22:42:20.278518 2024] [mpm_winnt:notice] [pid 34212:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 22:42:20.278518 2024] [core:notice] [pid 34212:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 22:42:20.282535 2024] [mpm_winnt:notice] [pid 34212:tid 352] AH00418: Parent: Created child process 18628
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 22:42:20.746957 2024] [mpm_winnt:notice] [pid 18628:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 22:42:23.040798 2024] [mpm_winnt:notice] [pid 34212:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 22:42:25.060946 2024] [mpm_winnt:notice] [pid 18628:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 22:42:25.080977 2024] [mpm_winnt:notice] [pid 34212:tid 352] AH00430: Parent: Child process 18628 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 22:42:30.780215 2024] [mpm_winnt:notice] [pid 2220:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 22:42:30.780215 2024] [mpm_winnt:notice] [pid 2220:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 22:42:30.780215 2024] [core:notice] [pid 2220:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 22:42:30.784221 2024] [mpm_winnt:notice] [pid 2220:tid 352] AH00418: Parent: Created child process 18628
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 22:42:31.210366 2024] [mpm_winnt:notice] [pid 18628:tid 368] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 02 23:22:24.644553 2024] [php:error] [pid 18628:tid 1180] [client ::1:36189] script 'C:/tools/www/portfolio_melchior/index.php' not found or unable to stat
+[Wed Oct 02 23:24:25.372099 2024] [php:error] [pid 18628:tid 1180] [client ::1:36770] script 'C:/tools/www/portfolio_melchior/index.php' not found or unable to stat
+[Wed Oct 02 23:54:30.231931 2024] [mpm_winnt:notice] [pid 2220:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Oct 02 23:54:32.279238 2024] [mpm_winnt:notice] [pid 18628:tid 368] AH00364: Child: All worker threads have exited.
+[Wed Oct 02 23:54:32.294865 2024] [mpm_winnt:notice] [pid 2220:tid 352] AH00430: Parent: Child process 18628 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 23:55:29.055898 2024] [mpm_winnt:notice] [pid 6976:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Wed Oct 02 23:55:29.055898 2024] [mpm_winnt:notice] [pid 6976:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Wed Oct 02 23:55:29.055898 2024] [core:notice] [pid 6976:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Wed Oct 02 23:55:29.058896 2024] [mpm_winnt:notice] [pid 6976:tid 352] AH00418: Parent: Created child process 9204
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Wed Oct 02 23:55:30.148897 2024] [mpm_winnt:notice] [pid 9204:tid 404] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 00:14:48.246716 2024] [php:error] [pid 9204:tid 1204] [client ::1:1961] script 'C:/tools/www/portfolio_melchior/index.php' not found or unable to stat
+[Thu Oct 03 00:15:45.198744 2024] [mpm_winnt:notice] [pid 6976:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 03 00:15:47.213471 2024] [mpm_winnt:notice] [pid 9204:tid 404] AH00364: Child: All worker threads have exited.
+[Thu Oct 03 00:15:47.236325 2024] [mpm_winnt:notice] [pid 6976:tid 352] AH00430: Parent: Child process 9204 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 00:20:39.455619 2024] [mpm_winnt:notice] [pid 29928:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 00:20:39.456619 2024] [mpm_winnt:notice] [pid 29928:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 00:20:39.456619 2024] [core:notice] [pid 29928:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Thu Oct 03 00:20:39.459619 2024] [mpm_winnt:notice] [pid 29928:tid 352] AH00418: Parent: Created child process 14588
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 00:20:39.875921 2024] [mpm_winnt:notice] [pid 14588:tid 368] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 00:28:35.899253 2024] [mpm_winnt:crit] [pid 14588:tid 368] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Oct 03 00:28:35.899253 2024] [mpm_winnt:warn] [pid 14588:tid 1512] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Oct 03 00:28:35.899253 2024] [mpm_winnt:warn] [pid 14588:tid 1556] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Oct 03 00:28:37.917082 2024] [mpm_winnt:notice] [pid 14588:tid 368] AH00364: Child: All worker threads have exited.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 31972:tid 388] AH00098: pid file C:/tools/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 00:30:03.823897 2024] [mpm_winnt:notice] [pid 31972:tid 388] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 00:30:03.823897 2024] [mpm_winnt:notice] [pid 31972:tid 388] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 00:30:03.823897 2024] [core:notice] [pid 31972:tid 388] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Thu Oct 03 00:30:03.826896 2024] [mpm_winnt:notice] [pid 31972:tid 388] AH00418: Parent: Created child process 12996
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 00:30:04.228129 2024] [mpm_winnt:notice] [pid 12996:tid 368] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 00:30:12.119862 2024] [php:error] [pid 12996:tid 1216] [client ::1:6349] script 'C:/tools/www/portfolio_melchior/index.php' not found or unable to stat
+[Thu Oct 03 00:59:42.583199 2024] [php:error] [pid 12996:tid 1200] [client ::1:14696] script 'C:/tools/www/portfolio_melchior/index.php' not found or unable to stat
+[Thu Oct 03 01:03:18.033990 2024] [php:error] [pid 12996:tid 1200] [client ::1:15534] script 'C:/tools/www/portfolio_melchior/index.php' not found or unable to stat
+[Thu Oct 03 01:06:06.030008 2024] [mpm_winnt:notice] [pid 31972:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 03 01:06:08.052773 2024] [mpm_winnt:notice] [pid 12996:tid 368] AH00364: Child: All worker threads have exited.
+[Thu Oct 03 01:06:08.078640 2024] [mpm_winnt:notice] [pid 31972:tid 388] AH00430: Parent: Child process 12996 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 01:06:12.061718 2024] [mpm_winnt:notice] [pid 31748:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 01:06:12.061718 2024] [mpm_winnt:notice] [pid 31748:tid 384] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 01:06:12.061718 2024] [core:notice] [pid 31748:tid 384] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Thu Oct 03 01:06:12.065721 2024] [mpm_winnt:notice] [pid 31748:tid 384] AH00418: Parent: Created child process 1504
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 01:06:12.497319 2024] [mpm_winnt:notice] [pid 1504:tid 368] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 01:07:55.929761 2024] [mpm_winnt:notice] [pid 31748:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 03 01:08:00.187799 2024] [mpm_winnt:notice] [pid 1504:tid 368] AH00364: Child: All worker threads have exited.
+[Thu Oct 03 01:08:00.209797 2024] [mpm_winnt:notice] [pid 31748:tid 384] AH00430: Parent: Child process 1504 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 01:08:02.451554 2024] [mpm_winnt:notice] [pid 2988:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 01:08:02.451554 2024] [mpm_winnt:notice] [pid 2988:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 01:08:02.451554 2024] [core:notice] [pid 2988:tid 352] AH00094: Command line: 'C:\\tools\\Apache24\\bin\\httpd.exe -d C:/tools/Apache24'
+[Thu Oct 03 01:08:02.455553 2024] [mpm_winnt:notice] [pid 2988:tid 352] AH00418: Parent: Created child process 25608
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 01:08:02.899624 2024] [mpm_winnt:notice] [pid 25608:tid 368] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 01:47:11.843795 2024] [mpm_winnt:crit] [pid 25608:tid 368] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Oct 03 01:47:11.843795 2024] [mpm_winnt:warn] [pid 25608:tid 1488] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Oct 03 01:47:11.843795 2024] [mpm_winnt:warn] [pid 25608:tid 1472] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+Starting the 'Apache2.4' service
+[Thu Oct 03 02:00:53.558423 2024] [mpm_winnt:crit] [pid 15232:tid 372] (OS 2)Le fichier sp�cifi� est introuvable.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+[Thu Oct 03 02:01:19.254042 2024] [mpm_winnt:crit] [pid 13884:tid 376] (OS 2)Le fichier sp�cifi� est introuvable.  : AH00378: Failed to start the 'Apache2.4' service
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 34508:tid 352] AH00098: pid file C:/tools/apache/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\\tools\\php8.3.12\\ext\\ftp (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_ftp.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\\tools\\php8.3.12\\ext\\fileinfo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_fileinfo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\\tools\\php8.3.12\\ext\\mbstring (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mbstring.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\\tools\\php8.3.12\\ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mysqli.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\tools\\php8.3.12\\ext\\openssl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_openssl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_mysql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\\tools\\php8.3.12\\ext\\sockets (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_sockets.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\\tools\\php8.3.12\\ext\\xsl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_xsl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: C:\\tools\\php8.3.12\\ext\\zip (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_zip.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:03:17.816860 2024] [mpm_winnt:notice] [pid 34508:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 02:03:17.816860 2024] [mpm_winnt:notice] [pid 34508:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 02:03:17.816860 2024] [core:notice] [pid 34508:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Thu Oct 03 02:03:17.820862 2024] [mpm_winnt:notice] [pid 34508:tid 352] AH00418: Parent: Created child process 31408
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\\tools\\php8.3.12\\ext\\ftp (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_ftp.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\\tools\\php8.3.12\\ext\\fileinfo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_fileinfo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\\tools\\php8.3.12\\ext\\mbstring (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mbstring.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\\tools\\php8.3.12\\ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mysqli.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\tools\\php8.3.12\\ext\\openssl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_openssl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_mysql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\\tools\\php8.3.12\\ext\\sockets (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_sockets.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\\tools\\php8.3.12\\ext\\xsl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_xsl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: C:\\tools\\php8.3.12\\ext\\zip (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_zip.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:03:18.280594 2024] [mpm_winnt:notice] [pid 31408:tid 396] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 02:03:35.960255 2024] [mpm_winnt:notice] [pid 34508:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 03 02:03:37.986750 2024] [mpm_winnt:notice] [pid 31408:tid 396] AH00364: Child: All worker threads have exited.
+[Thu Oct 03 02:03:38.007275 2024] [mpm_winnt:notice] [pid 34508:tid 352] AH00430: Parent: Child process 31408 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'curl' (tried: C:\\tools\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\\tools\\php8.3.12\\ext\\ftp (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_ftp.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\\tools\\php8.3.12\\ext\\fileinfo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_fileinfo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\\tools\\php8.3.12\\ext\\mbstring (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mbstring.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\\tools\\php8.3.12\\ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mysqli.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\tools\\php8.3.12\\ext\\openssl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_openssl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_mysql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\\tools\\php8.3.12\\ext\\sockets (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_sockets.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\\tools\\php8.3.12\\ext\\xsl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_xsl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: C:\\tools\\php8.3.12\\ext\\zip (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_zip.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:03:40.336146 2024] [mpm_winnt:notice] [pid 34724:tid 368] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 02:03:40.336146 2024] [mpm_winnt:notice] [pid 34724:tid 368] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 02:03:40.336146 2024] [core:notice] [pid 34724:tid 368] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Thu Oct 03 02:03:40.340144 2024] [mpm_winnt:notice] [pid 34724:tid 368] AH00418: Parent: Created child process 34524
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\\tools\\php8.3.12\\ext\\ftp (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_ftp.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\\tools\\php8.3.12\\ext\\fileinfo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_fileinfo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\\tools\\php8.3.12\\ext\\mbstring (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mbstring.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\\tools\\php8.3.12\\ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mysqli.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\tools\\php8.3.12\\ext\\openssl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_openssl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_mysql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\\tools\\php8.3.12\\ext\\sockets (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_sockets.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\\tools\\php8.3.12\\ext\\xsl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_xsl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: C:\\tools\\php8.3.12\\ext\\zip (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_zip.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:03:40.765782 2024] [mpm_winnt:notice] [pid 34524:tid 368] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 02:04:34.214323 2024] [mpm_winnt:notice] [pid 34724:tid 368] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 03 02:05:04.223664 2024] [mpm_winnt:notice] [pid 34724:tid 368] AH00431: Parent: Forcing termination of child process 34524
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'curl' (tried: C:\\tools\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\\tools\\php8.3.12\\ext\\ftp (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_ftp.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\\tools\\php8.3.12\\ext\\fileinfo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_fileinfo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\\tools\\php8.3.12\\ext\\mbstring (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mbstring.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\\tools\\php8.3.12\\ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mysqli.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\tools\\php8.3.12\\ext\\openssl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_openssl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_mysql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\\tools\\php8.3.12\\ext\\sockets (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_sockets.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\\tools\\php8.3.12\\ext\\xsl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_xsl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: C:\\tools\\php8.3.12\\ext\\zip (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_zip.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:05:08.813015 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 02:05:08.813015 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 02:05:08.813015 2024] [core:notice] [pid 21736:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Thu Oct 03 02:05:08.816733 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00418: Parent: Created child process 3804
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'ftp' (tried: C:\\tools\\php8.3.12\\ext\\ftp (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_ftp.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: C:\\tools\\php8.3.12\\ext\\fileinfo (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_fileinfo.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: C:\\tools\\php8.3.12\\ext\\mbstring (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mbstring.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mysqli' (tried: C:\\tools\\php8.3.12\\ext\\mysqli (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_mysqli.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\tools\\php8.3.12\\ext\\openssl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_openssl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_mysql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_mysql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'sockets' (tried: C:\\tools\\php8.3.12\\ext\\sockets (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_sockets.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'xsl' (tried: C:\\tools\\php8.3.12\\ext\\xsl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_xsl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'zip' (tried: C:\\tools\\php8.3.12\\ext\\zip (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php8.3.12\\ext\\php_zip.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:05:09.245075 2024] [mpm_winnt:notice] [pid 3804:tid 368] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 21736:tid 352] AH00424: Parent: Received restart signal -- Restarting the server.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:09:13.677778 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 02:09:13.677778 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 02:09:13.677778 2024] [core:notice] [pid 21736:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Thu Oct 03 02:09:13.680778 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00418: Parent: Created child process 26960
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:09:14.512504 2024] [mpm_winnt:notice] [pid 26960:tid 368] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 02:09:19.889096 2024] [mpm_winnt:notice] [pid 3804:tid 368] AH00364: Child: All worker threads have exited.
+[Thu Oct 03 02:13:15.568595 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 03 02:13:17.594080 2024] [mpm_winnt:notice] [pid 26960:tid 368] AH00364: Child: All worker threads have exited.
+[Thu Oct 03 02:13:17.619588 2024] [mpm_winnt:notice] [pid 21736:tid 352] AH00430: Parent: Child process 26960 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:13:21.282766 2024] [mpm_winnt:notice] [pid 33496:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 02:13:21.282766 2024] [mpm_winnt:notice] [pid 33496:tid 384] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 02:13:21.282766 2024] [core:notice] [pid 33496:tid 384] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Thu Oct 03 02:13:21.286772 2024] [mpm_winnt:notice] [pid 33496:tid 384] AH00418: Parent: Created child process 7824
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 02:13:21.703538 2024] [mpm_winnt:notice] [pid 7824:tid 380] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 02:24:41.678964 2024] [php:error] [pid 7824:tid 1164] [client ::1:12596] script 'C:/tools/www/portfolio_melchior/index.php' not found or unable to stat
+[Thu Oct 03 02:39:20.809624 2024] [mpm_winnt:notice] [pid 33496:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 03 02:39:22.846959 2024] [mpm_winnt:notice] [pid 7824:tid 380] AH00364: Child: All worker threads have exited.
+[Thu Oct 03 02:39:22.862612 2024] [mpm_winnt:notice] [pid 33496:tid 384] AH00430: Parent: Child process 7824 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 12:22:56.615257 2024] [mpm_winnt:notice] [pid 6944:tid 380] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Thu Oct 03 12:22:56.615257 2024] [mpm_winnt:notice] [pid 6944:tid 380] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Thu Oct 03 12:22:56.615257 2024] [core:notice] [pid 6944:tid 380] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Thu Oct 03 12:22:56.617257 2024] [mpm_winnt:notice] [pid 6944:tid 380] AH00418: Parent: Created child process 12196
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Thu Oct 03 12:22:57.725259 2024] [mpm_winnt:notice] [pid 12196:tid 368] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 03 23:05:28.402026 2024] [php:warn] [pid 12196:tid 1136] [client ::1:37753] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 277, referer: http://localhost/
+[Thu Oct 03 23:05:32.529556 2024] [php:warn] [pid 12196:tid 1136] [client ::1:37753] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 277, referer: http://localhost/
+[Thu Oct 03 23:08:32.901813 2024] [php:warn] [pid 12196:tid 1140] [client ::1:38852] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 279, referer: http://localhost/
+[Thu Oct 03 23:08:38.299934 2024] [php:warn] [pid 12196:tid 1140] [client ::1:38852] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 277, referer: http://localhost/
+[Thu Oct 03 23:09:04.269702 2024] [php:warn] [pid 12196:tid 1136] [client ::1:38853] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 277, referer: http://localhost/
+[Thu Oct 03 23:38:12.870098 2024] [php:warn] [pid 12196:tid 1136] [client ::1:44061] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 279, referer: http://localhost/
+[Thu Oct 03 23:38:16.267729 2024] [php:warn] [pid 12196:tid 1136] [client ::1:44061] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 279, referer: http://localhost/
+[Thu Oct 03 23:42:32.942987 2024] [php:warn] [pid 12196:tid 1136] [client ::1:44857] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 277, referer: http://localhost/
+[Thu Oct 03 23:44:31.657162 2024] [php:warn] [pid 12196:tid 1136] [client ::1:45334] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 277, referer: http://localhost/
+[Thu Oct 03 23:45:31.725569 2024] [php:warn] [pid 12196:tid 1140] [client ::1:45673] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 291, referer: http://localhost/
+[Thu Oct 03 23:45:35.197330 2024] [php:warn] [pid 12196:tid 1140] [client ::1:45673] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 291, referer: http://localhost/
+[Thu Oct 03 23:45:38.718632 2024] [php:warn] [pid 12196:tid 1140] [client ::1:45673] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 291, referer: http://localhost/
+[Thu Oct 03 23:47:20.797583 2024] [php:warn] [pid 12196:tid 1136] [client ::1:46051] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 282, referer: http://localhost/
+[Thu Oct 03 23:47:59.060443 2024] [php:warn] [pid 12196:tid 1140] [client ::1:46052] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 279, referer: http://localhost/
+[Thu Oct 03 23:48:39.811219 2024] [php:error] [pid 12196:tid 1136] [client ::1:46179] PHP Parse error:  syntax error, unexpected token "\\", expecting "," or ";" in C:\\tools\\www\\index.php on line 325, referer: http://localhost/
+[Thu Oct 03 23:48:46.436337 2024] [php:warn] [pid 12196:tid 1140] [client ::1:46318] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 279, referer: http://localhost/
+[Thu Oct 03 23:48:51.949083 2024] [php:warn] [pid 12196:tid 1156] [client ::1:46367] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 279, referer: http://localhost/
+[Thu Oct 03 23:48:56.773011 2024] [php:warn] [pid 12196:tid 1156] [client ::1:46367] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 279, referer: http://localhost/
+[Thu Oct 03 23:49:53.564734 2024] [php:error] [pid 12196:tid 1156] [client ::1:46431] PHP Parse error:  syntax error, unexpected token "\\", expecting "," or ";" in C:\\tools\\www\\index.php on line 325, referer: http://localhost/
+[Thu Oct 03 23:49:56.037974 2024] [php:error] [pid 12196:tid 1156] [client ::1:46431] PHP Parse error:  syntax error, unexpected token "\\", expecting "," or ";" in C:\\tools\\www\\index.php on line 325, referer: http://localhost/
+[Thu Oct 03 23:49:58.710815 2024] [php:error] [pid 12196:tid 1156] [client ::1:46431] PHP Parse error:  syntax error, unexpected token "\\", expecting "," or ";" in C:\\tools\\www\\index.php on line 325
+[Thu Oct 03 23:49:59.008882 2024] [php:error] [pid 12196:tid 1156] [client ::1:46431] PHP Parse error:  syntax error, unexpected token "\\", expecting "," or ";" in C:\\tools\\www\\index.php on line 325
+[Fri Oct 04 00:08:10.123397 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51200] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 276, referer: http://localhost/
+[Fri Oct 04 00:08:19.018864 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51282] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 276, referer: http://localhost/
+[Fri Oct 04 00:08:21.134242 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51282] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 276, referer: http://localhost/
+[Fri Oct 04 00:08:48.872530 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51331] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 275, referer: http://localhost/
+[Fri Oct 04 00:08:51.371139 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51331] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 276, referer: http://localhost/
+[Fri Oct 04 00:09:01.311348 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51445] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 211, referer: http://localhost/
+[Fri Oct 04 00:09:03.305160 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51445] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 211, referer: http://localhost/
+[Fri Oct 04 00:09:05.414511 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51445] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 211, referer: http://localhost/
+[Fri Oct 04 00:09:10.826714 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51445] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 210, referer: http://localhost/
+[Fri Oct 04 00:09:18.877124 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51445] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 210, referer: http://localhost/
+[Fri Oct 04 00:09:49.368154 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51616] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 210, referer: http://localhost/
+[Fri Oct 04 00:09:52.949357 2024] [php:warn] [pid 12196:tid 1136] [client ::1:51616] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 210, referer: http://localhost/
+[Fri Oct 04 00:10:14.401793 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51685] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 210, referer: http://localhost/
+[Fri Oct 04 00:10:18.157531 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51685] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 210, referer: http://localhost/
+[Fri Oct 04 00:10:23.223775 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51685] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 210, referer: http://localhost/
+[Fri Oct 04 00:10:58.384103 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51891] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 274, referer: http://localhost/
+[Fri Oct 04 00:11:00.630410 2024] [php:warn] [pid 12196:tid 1156] [client ::1:51891] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 274, referer: http://localhost/
+[Fri Oct 04 00:11:52.164056 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52088] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 218, referer: http://localhost/
+[Fri Oct 04 00:11:59.924680 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52160] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 212, referer: http://localhost/
+[Fri Oct 04 00:13:01.746411 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52338] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 245, referer: http://localhost/
+[Fri Oct 04 00:13:12.459584 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52398] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 244, referer: http://localhost/
+[Fri Oct 04 00:13:14.381545 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52398] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 244, referer: http://localhost/
+[Fri Oct 04 00:13:21.854640 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52442] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 244, referer: http://localhost/
+[Fri Oct 04 00:13:30.015817 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52475] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 245, referer: http://localhost/
+[Fri Oct 04 00:13:43.858773 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52515] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 291, referer: http://localhost/
+[Fri Oct 04 00:13:50.182980 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52515] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 291, referer: http://localhost/
+[Fri Oct 04 00:13:59.928428 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52584] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 291, referer: http://localhost/
+[Fri Oct 04 00:14:43.211555 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52633] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 288, referer: http://localhost/
+[Fri Oct 04 00:14:44.611656 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52633] PHP Warning:  Undefined variable $redirectUrl in C:\\tools\\www\\index.php on line 287
+[Fri Oct 04 00:14:44.884375 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52633] PHP Warning:  Undefined variable $redirectUrl in C:\\tools\\www\\index.php on line 287
+[Fri Oct 04 00:14:47.220873 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52633] PHP Warning:  Undefined variable $redirectUrl in C:\\tools\\www\\index.php on line 287
+[Fri Oct 04 00:14:47.465315 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52633] PHP Warning:  Undefined variable $redirectUrl in C:\\tools\\www\\index.php on line 287
+[Fri Oct 04 00:14:48.740480 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52633] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 288, referer: http://localhost/
+[Fri Oct 04 00:14:52.883036 2024] [php:warn] [pid 12196:tid 1136] [client ::1:52633] PHP Warning:  Undefined variable $redirectUrl in C:\\tools\\www\\index.php on line 287
+[Fri Oct 04 00:15:09.521115 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52788] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 290, referer: http://localhost/
+[Fri Oct 04 00:15:12.782248 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52788] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 290, referer: http://localhost/
+[Fri Oct 04 00:15:14.670686 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52788] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 290, referer: http://localhost/
+[Fri Oct 04 00:15:18.438184 2024] [php:warn] [pid 12196:tid 1156] [client ::1:52788] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\tools\\www\\index.php:1) in C:\\tools\\www\\index.php on line 290, referer: http://localhost/
+[Fri Oct 04 05:35:34.030536 2024] [mpm_winnt:crit] [pid 12196:tid 368] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Oct 04 05:35:34.030536 2024] [mpm_winnt:warn] [pid 12196:tid 1560] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Oct 04 05:35:34.030536 2024] [mpm_winnt:warn] [pid 12196:tid 1704] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+Starting the 'Apache2.4' service
+(OS 5)Acc�s refus�.  : AH10012: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+(OS 5)Acc�s refus�.  : AH10012: Failed to open the 'Apache2.4' service
+[Fri Oct 04 05:37:52.070553 2024] [core:warn] [pid 34748:tid 372] AH00098: pid file C:/tools/apache/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 04 05:37:52.289274 2024] [mpm_winnt:notice] [pid 34748:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 05:37:52.289274 2024] [mpm_winnt:notice] [pid 34748:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 05:37:52.289274 2024] [core:notice] [pid 34748:tid 372] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 05:37:52.292246 2024] [mpm_winnt:notice] [pid 34748:tid 372] AH00418: Parent: Created child process 32992
+Apache server interrupted...
+024] [mpm_winnt:notice] [pid 32992:tid 372] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 05:37:58.543123 2024] [mpm_winnt:notice] [pid 34748:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Fri Oct 04 05:38:00.562127 2024] [mpm_winnt:notice] [pid 32992:tid 372] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 05:38:00.582164 2024] [mpm_winnt:notice] [pid 34748:tid 372] AH00430: Parent: Child process 32992 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 05:38:06.375989 2024] [mpm_winnt:notice] [pid 37876:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 05:38:06.375989 2024] [mpm_winnt:notice] [pid 37876:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 05:38:06.375989 2024] [core:notice] [pid 37876:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 05:38:06.379991 2024] [mpm_winnt:notice] [pid 37876:tid 352] AH00418: Parent: Created child process 16824
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 05:38:06.825959 2024] [mpm_winnt:notice] [pid 16824:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 05:38:30.690098 2024] [mpm_winnt:crit] [pid 16824:tid 368] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Oct 04 05:38:30.691096 2024] [mpm_winnt:warn] [pid 16824:tid 1252] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Oct 04 05:38:30.691096 2024] [mpm_winnt:warn] [pid 16824:tid 1256] (OS 995)L�op�ration d�entr�e/sortie a �t� abandonn�e en raison de l�arr�t d�un thread ou � la demande d�une application.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+Starting the 'Apache2.4' service
+(OS 5)Acc�s refus�.  : AH10012: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+(OS 5)Acc�s refus�.  : AH10012: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+(OS 5)Acc�s refus�.  : AH10012: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 29720:tid 352] AH00098: pid file C:/tools/apache/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 06:04:36.160308 2024] [mpm_winnt:notice] [pid 29720:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 06:04:36.160308 2024] [mpm_winnt:notice] [pid 29720:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 06:04:36.160308 2024] [core:notice] [pid 29720:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 06:04:36.164307 2024] [mpm_winnt:notice] [pid 29720:tid 352] AH00418: Parent: Created child process 12296
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 06:04:36.610817 2024] [mpm_winnt:notice] [pid 12296:tid 384] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 06:15:38.296822 2024] [mpm_winnt:notice] [pid 29720:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 06:15:40.328885 2024] [mpm_winnt:notice] [pid 12296:tid 384] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 06:15:40.344510 2024] [mpm_winnt:notice] [pid 29720:tid 352] AH00430: Parent: Child process 12296 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:09:29.878781 2024] [mpm_winnt:notice] [pid 6864:tid 384] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 16:09:29.878781 2024] [mpm_winnt:notice] [pid 6864:tid 384] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 16:09:29.878781 2024] [core:notice] [pid 6864:tid 384] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 16:09:29.881784 2024] [mpm_winnt:notice] [pid 6864:tid 384] AH00418: Parent: Created child process 12212
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:09:30.381787 2024] [mpm_winnt:notice] [pid 12212:tid 424] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 16:21:17.049686 2024] [mpm_winnt:notice] [pid 6864:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 16:21:19.066236 2024] [mpm_winnt:notice] [pid 12212:tid 424] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 16:21:19.092247 2024] [mpm_winnt:notice] [pid 6864:tid 384] AH00430: Parent: Child process 12212 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:21:26.040492 2024] [mpm_winnt:notice] [pid 5836:tid 372] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 16:21:26.040492 2024] [mpm_winnt:notice] [pid 5836:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 16:21:26.040492 2024] [core:notice] [pid 5836:tid 372] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 16:21:26.044494 2024] [mpm_winnt:notice] [pid 5836:tid 372] AH00418: Parent: Created child process 36136
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:21:26.465276 2024] [mpm_winnt:notice] [pid 36136:tid 412] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 16:22:02.364866 2024] [mpm_winnt:notice] [pid 5836:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 16:22:04.386160 2024] [mpm_winnt:notice] [pid 36136:tid 412] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 16:22:04.412159 2024] [mpm_winnt:notice] [pid 5836:tid 372] AH00430: Parent: Child process 36136 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:22:34.855462 2024] [mpm_winnt:notice] [pid 36756:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 16:22:34.855462 2024] [mpm_winnt:notice] [pid 36756:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 16:22:34.855462 2024] [core:notice] [pid 36756:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 16:22:34.859800 2024] [mpm_winnt:notice] [pid 36756:tid 352] AH00418: Parent: Created child process 35656
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:22:35.283300 2024] [mpm_winnt:notice] [pid 35656:tid 408] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 16:45:24.098383 2024] [mpm_winnt:notice] [pid 36756:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 16:45:26.116308 2024] [mpm_winnt:notice] [pid 35656:tid 408] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 16:45:26.138158 2024] [mpm_winnt:notice] [pid 36756:tid 352] AH00430: Parent: Child process 35656 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:45:46.706129 2024] [mpm_winnt:notice] [pid 12072:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 16:45:46.706129 2024] [mpm_winnt:notice] [pid 12072:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 16:45:46.706129 2024] [core:notice] [pid 12072:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 16:45:46.710092 2024] [mpm_winnt:notice] [pid 12072:tid 352] AH00418: Parent: Created child process 15560
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:45:47.113275 2024] [mpm_winnt:notice] [pid 15560:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 16:54:54.585509 2024] [mpm_winnt:notice] [pid 12072:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 16:54:56.606765 2024] [mpm_winnt:notice] [pid 15560:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 16:54:56.629880 2024] [mpm_winnt:notice] [pid 12072:tid 352] AH00430: Parent: Child process 15560 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:57:22.345964 2024] [mpm_winnt:notice] [pid 20524:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 16:57:22.345964 2024] [mpm_winnt:notice] [pid 20524:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 16:57:22.345964 2024] [core:notice] [pid 20524:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 16:57:22.349964 2024] [mpm_winnt:notice] [pid 20524:tid 352] AH00418: Parent: Created child process 11560
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 16:57:22.764351 2024] [mpm_winnt:notice] [pid 11560:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 17:11:49.618973 2024] [mpm_winnt:notice] [pid 20524:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 17:11:51.627985 2024] [mpm_winnt:notice] [pid 11560:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 17:11:51.649586 2024] [mpm_winnt:notice] [pid 20524:tid 352] AH00430: Parent: Child process 11560 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:11:55.223062 2024] [mpm_winnt:notice] [pid 15648:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 17:11:55.223062 2024] [mpm_winnt:notice] [pid 15648:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 17:11:55.223062 2024] [core:notice] [pid 15648:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 17:11:55.227029 2024] [mpm_winnt:notice] [pid 15648:tid 352] AH00418: Parent: Created child process 13300
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:11:55.662028 2024] [mpm_winnt:notice] [pid 13300:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 17:12:56.215338 2024] [mpm_winnt:notice] [pid 15648:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 17:12:58.221764 2024] [mpm_winnt:notice] [pid 13300:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 17:12:58.241922 2024] [mpm_winnt:notice] [pid 15648:tid 352] AH00430: Parent: Child process 13300 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:13:03.798862 2024] [mpm_winnt:notice] [pid 4196:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 17:13:03.798862 2024] [mpm_winnt:notice] [pid 4196:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 17:13:03.798862 2024] [core:notice] [pid 4196:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 17:13:03.801864 2024] [mpm_winnt:notice] [pid 4196:tid 352] AH00418: Parent: Created child process 8432
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:13:04.205566 2024] [mpm_winnt:notice] [pid 8432:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 17:13:06.080497 2024] [mpm_winnt:notice] [pid 4196:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 17:13:08.092755 2024] [mpm_winnt:notice] [pid 8432:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 17:13:08.111919 2024] [mpm_winnt:notice] [pid 4196:tid 352] AH00430: Parent: Child process 8432 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:15:45.832259 2024] [mpm_winnt:notice] [pid 11296:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 17:15:45.832259 2024] [mpm_winnt:notice] [pid 11296:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 17:15:45.832259 2024] [core:notice] [pid 11296:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 17:15:45.835259 2024] [mpm_winnt:notice] [pid 11296:tid 352] AH00418: Parent: Created child process 34244
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:15:46.268052 2024] [mpm_winnt:notice] [pid 34244:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 17:23:11.843235 2024] [mpm_winnt:notice] [pid 11296:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 17:23:24.621052 2024] [mpm_winnt:notice] [pid 34244:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 17:23:24.640226 2024] [mpm_winnt:notice] [pid 11296:tid 352] AH00430: Parent: Child process 34244 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:24:30.395593 2024] [mpm_winnt:notice] [pid 29780:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 17:24:30.395593 2024] [mpm_winnt:notice] [pid 29780:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 17:24:30.395593 2024] [core:notice] [pid 29780:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 17:24:30.398592 2024] [mpm_winnt:notice] [pid 29780:tid 352] AH00418: Parent: Created child process 21780
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:24:30.802967 2024] [mpm_winnt:notice] [pid 21780:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 17:29:57.326053 2024] [mpm_winnt:notice] [pid 29780:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 17:29:59.346874 2024] [mpm_winnt:notice] [pid 21780:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 17:29:59.367748 2024] [mpm_winnt:notice] [pid 29780:tid 352] AH00430: Parent: Child process 21780 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:30:01.248235 2024] [mpm_winnt:notice] [pid 2100:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 17:30:01.248235 2024] [mpm_winnt:notice] [pid 2100:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 17:30:01.248235 2024] [core:notice] [pid 2100:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 17:30:01.252237 2024] [mpm_winnt:notice] [pid 2100:tid 352] AH00418: Parent: Created child process 25892
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 17:30:01.677787 2024] [mpm_winnt:notice] [pid 25892:tid 380] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 18:01:14.590466 2024] [mpm_winnt:notice] [pid 2100:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 18:01:16.597789 2024] [mpm_winnt:notice] [pid 25892:tid 380] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 18:01:16.621327 2024] [mpm_winnt:notice] [pid 2100:tid 352] AH00430: Parent: Child process 25892 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:01:20.973362 2024] [mpm_winnt:notice] [pid 35604:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 18:01:20.974361 2024] [mpm_winnt:notice] [pid 35604:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 18:01:20.974361 2024] [core:notice] [pid 35604:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 18:01:20.977390 2024] [mpm_winnt:notice] [pid 35604:tid 352] AH00418: Parent: Created child process 30748
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:01:21.392602 2024] [mpm_winnt:notice] [pid 30748:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 18:06:08.162853 2024] [mpm_winnt:notice] [pid 35604:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 18:06:10.165770 2024] [mpm_winnt:notice] [pid 30748:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 18:06:10.184721 2024] [mpm_winnt:notice] [pid 35604:tid 352] AH00430: Parent: Child process 30748 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:08:59.182147 2024] [mpm_winnt:notice] [pid 20392:tid 192] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 18:08:59.182147 2024] [mpm_winnt:notice] [pid 20392:tid 192] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 18:08:59.182147 2024] [core:notice] [pid 20392:tid 192] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 18:08:59.186147 2024] [mpm_winnt:notice] [pid 20392:tid 192] AH00418: Parent: Created child process 4880
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:08:59.621767 2024] [mpm_winnt:notice] [pid 4880:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 18:10:08.212982 2024] [mpm_winnt:notice] [pid 20392:tid 192] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 18:10:10.228059 2024] [mpm_winnt:notice] [pid 4880:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 18:10:10.249339 2024] [mpm_winnt:notice] [pid 20392:tid 192] AH00430: Parent: Child process 4880 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:10:28.370486 2024] [mpm_winnt:notice] [pid 35888:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 18:10:28.370486 2024] [mpm_winnt:notice] [pid 35888:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 18:10:28.370486 2024] [core:notice] [pid 35888:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 18:10:28.374454 2024] [mpm_winnt:notice] [pid 35888:tid 352] AH00418: Parent: Created child process 29316
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:10:28.794861 2024] [mpm_winnt:notice] [pid 29316:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 18:11:21.692115 2024] [mpm_winnt:notice] [pid 35888:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 18:11:23.719635 2024] [mpm_winnt:notice] [pid 29316:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 18:11:23.739003 2024] [mpm_winnt:notice] [pid 35888:tid 352] AH00430: Parent: Child process 29316 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:11:28.113529 2024] [mpm_winnt:notice] [pid 17844:tid 352] AH00455: Apache/2.4.62 (Win64) PHP/8.3.12 configured -- resuming normal operations
+[Fri Oct 04 18:11:28.113529 2024] [mpm_winnt:notice] [pid 17844:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Fri Oct 04 18:11:28.113529 2024] [core:notice] [pid 17844:tid 352] AH00094: Command line: 'C:\\tools\\apache\\Apache24\\bin\\httpd.exe -d C:/tools/apache/Apache24'
+[Fri Oct 04 18:11:28.117556 2024] [mpm_winnt:notice] [pid 17844:tid 352] AH00418: Parent: Created child process 17528
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\tools\\php\\php8.3.12\\ext\\curl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_curl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\tools\\php\\php8.3.12\\ext\\intl (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_intl.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_pgsql' (tried: C:\\tools\\php\\php8.3.12\\ext\\pdo_pgsql (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable), C:\\tools\\php\\php8.3.12\\ext\\php_pdo_pgsql.dll (Le module sp\xc3\xa9cifi\xc3\xa9 est introuvable)) in Unknown on line 0
+[Fri Oct 04 18:11:28.548859 2024] [mpm_winnt:notice] [pid 17528:tid 368] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 04 18:15:25.388475 2024] [mpm_winnt:notice] [pid 17844:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Oct 04 18:15:27.402461 2024] [mpm_winnt:notice] [pid 17528:tid 368] AH00364: Child: All worker threads have exited.
+[Fri Oct 04 18:15:27.423397 2024] [mpm_winnt:notice] [pid 17844:tid 352] AH00430: Parent: Child process 17528 exited successfully.
